@@ -1998,6 +1998,12 @@ h3#ign-levels-headline {
 /**************************
 * Guanyem Web Team: START
 **************************/
+.icon {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url("images/sprite.png") no-repeat 0 0;
+}
 .home #site-description,
 .product-post-output br /* bloody wysiwyg auto br */, 
 .product-dashed-heading {
@@ -2013,13 +2019,29 @@ h3#ign-levels-headline {
 		padding: 0 20px;
 	}
 	.product-post-output h2 {
+		position: relative;
 		background: #ea5b5a;
 		color: white;
-		font-size: 26px;
-		line-height: 1.2;
-		padding: 40px 40px;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 1;
+		padding: 40px 40px 0 114px;
 		margin: 40px 0;
+		height: 67px;
 	}
+		.product-post-output h2 .icon {
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 3px;
+			left: 3px;
+		}
+		.product-post-output h2.why .icon {
+			background-position: 0 0;
+		}
+		.product-post-output h2.what .icon {
+			background-position: -100px 0;
+		}
 	.product-post-output h3 {
 		color: #e65d57;
 		font-size: 25px;
@@ -2071,12 +2093,14 @@ h3#ign-levels-headline {
 		background: #e65d57;
 	}
 	.ignitiondeck .id-product-levels {
-		padding-top: 40px;
+		text-align: left;
+		padding-top: 20px;
+		border-top: 3px solid #e56c68;
 	}
 		.ignitiondeck .id-product-levels a.level-binding {
 			display: block;
 			margin-bottom: 10px;
-			padding-bottom: 30px;
+			padding-bottom: 10px;
 			border-bottom: 3px solid #e56c68;
 		}
 			.ignitiondeck .id-product-levels a .level-group {}
@@ -2085,6 +2109,7 @@ h3#ign-levels-headline {
 			}
 				.ignitiondeck .id-product-levels a .id-level-title {
 					background: white;
+					margin-top: 0;
 					font-size: 35px;
 					font-weight: bold;
 					text-align: right;
@@ -2101,55 +2126,57 @@ h3#ign-levels-headline {
 				.ignitiondeck .id-product-levels a .level-group:hover .id-level-title {
 					background: none;
 				}
-				.ignitiondeck .id-product-levels a .id-level-desc {}
+				.ignitiondeck .id-product-levels a .id-level-desc {
+					clear: both;
+				}
 					.ignitiondeck .id-product-levels a .id-level-desc li {
-						font-size: 20px;
+						font-size: 16px;
 						line-height: 1.1;
 						margin-bottom: .5em;
 						color: #515151;
 					}
-					.ignitiondeck .id-product-levels a .id-level-desc  p.note {
+					.ignitiondeck .id-product-levels a .id-level-desc p.note {
 						font-size: 11px;
 					}
-					.ignitiondeck .id-product-levels a .id-level-desc  .icons {
+					.ignitiondeck .id-product-levels a .id-level-desc .icons {
 						overflow: hidden;
 					}
-						.ignitiondeck .id-product-levels a .id-level-desc  .icons span {
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span {
 							display: block;
 							float: left;
 							margin-right: 3px;
 							height: 50px;
 							background: url("images/rewards.png") no-repeat 0 0;
 						}
-						.ignitiondeck .id-product-levels a .id-level-desc  .icons span.mention {
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.mention {
 							width: 51px;
 							background-position: 0 0;
 						}
-						.ignitiondeck .id-product-levels a .id-level-desc  .icons span.badge {
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.badge {
 							width: 43px;
 							background-position: -51px 0;
 						}
-						.ignitiondeck .id-product-levels a .id-level-desc  .icons span.sticker {
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.sticker {
 							width: 41px;
 							background-position: -96px 0;
 						}
-						.ignitiondeck .id-product-levels a .id-level-desc  .icons span.postcard {
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.postcard {
 							width: 55px;
 							background-position: -137px 0;
 						}
-						.ignitiondeck .id-product-levels a .id-level-desc  .icons span.bag {
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.bag {
 							width: 39px;
 							background-position: -191px 0;
 						}
-						.ignitiondeck .id-product-levels a .id-level-desc  .icons span.shirt {
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.shirt {
 							width: 57px;
 							background-position: -230px 0;
 						}
-						.ignitiondeck .id-product-levels a .id-level-desc  .icons span.poster {
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.poster {
 							width: 43px;
 							background-position: -286px 0;
 						}
-						.ignitiondeck .id-product-levels a .id-level-desc  .icons span.chair {
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.chair {
 							width: 32px;
 							background-position: -329px 0;
 						}

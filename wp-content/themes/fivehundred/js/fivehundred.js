@@ -74,4 +74,7 @@ jQuery(document).ready(function() {
   jQuery('.language-text').each(function(i){
     if (jQuery(this).attr('lang') != icl_lang) jQuery(this).remove();
   })
+
+  // icons
+  jQuery('.product-post-output h2[class]').prepend('<i class="icon" />');
 });
