@@ -1,2 +1,2 @@
 # Crowdfunding
-Codi per la web de crowdfunding
+Codi per la web en Wordpress de Crowdfunding
