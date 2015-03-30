@@ -1,17 +1,3 @@
-function translate() {
-	var langToSee = icl_lang;
-
-	var langDivs = document.getElementsByClassName("language-text");
-	var l = langDivs.length;
-	for (var i = 0; i < l; ++i) {
-		var div = langDivs[i];
-		var lang = div.getAttribute("lang").toString();
-		if(lang !== langToSee) {
-			div.style.display = "none";
-		}
-	}
-}
-
 jQuery(document).ready(function() {
 	jQuery('#menu-header ul li').hover(function() {
 		var hovered = jQuery(this).index();
@@ -81,5 +67,11 @@ jQuery(document).ready(function() {
         }
     });
 
-	translate();
+  /******************
+  * Guanyem Web Team
+  *******************/
+  // Crowdfunding: hide other language text divs
+  jQuery('.language-text').each(function(i){
+    if (jQuery(this).attr('lang') != icl_lang) jQuery(this).remove();
+  })
 });
