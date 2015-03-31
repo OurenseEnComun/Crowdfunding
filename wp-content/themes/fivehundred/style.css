@@ -2015,6 +2015,7 @@ h3#ign-levels-headline {
 	.product-post-output h1 {
 		text-indent: -500em;
 		height: 154px;
+		margin-bottom: 40px;
 		background: #eb5c5a url("/wp-content/uploads/2015/03/fem-pot-comu.jpg") no-repeat 0 0;
 	}
 	.product-post-output h3, .product-post-output p, .product-post-output ul, .product-post-output ol {
