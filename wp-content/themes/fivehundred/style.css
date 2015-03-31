@@ -2205,6 +2205,9 @@ h3#ign-levels-headline {
 							width: 61px;
 							background-position: -419px 0;
 						}
+.ignitiondeck form .form-row {
+  padding-bottom: 20px;
+}
 
 /**************************
 * Guanyem Web Team: END
