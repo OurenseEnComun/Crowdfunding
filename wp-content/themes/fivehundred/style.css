@@ -2088,6 +2088,10 @@ h3#ign-levels-headline {
 .ignitiondeck .id-product-infobox {
 	background: white;
 }
+	.ignitiondeck .id-product-proposed-end {}
+		.ignitiondeck .id-widget-date {
+			color: black;
+		}
 	.ignitiondeck .id-progress-raised, .ignitiondeck .id-product-total {
 		color: #e65d57;
 	}
