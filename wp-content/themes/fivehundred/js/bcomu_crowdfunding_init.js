@@ -8,6 +8,11 @@ var locale = {
     es: "Aportar",
     en: "Pledge"
   },
+  SUBMIT_PAYMENT: {
+    ca: "Fes el pagament",
+    es: "Realizar el pago",
+    en: "Submit Payment"
+  }
 };
 
 (function($){
@@ -33,5 +38,8 @@ var locale = {
 
     // pledge text minor change (get rid of ": N€")
     $('.ignitiondeck .id-product-levels a .id-level-title span').text(locale.PLEDGE[icl_lang]);
+
+    // submit payment btn translation
+    $('.ignitiondeck form input[type=submit]').attr('value', locale.SUBMIT_PAYMENT[icl_lang]);
   });
 })(jQuery);
