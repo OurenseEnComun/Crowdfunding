@@ -2090,12 +2090,20 @@ h3#ign-levels-headline {
 .ignitiondeck .id-product-infobox {
 	background: white;
 }
+	.ignitiondeck h2.id-product-title {
+    font-size: 27px !important;
+    font-weight: bold;
+    line-height: 21.6px !important;
+    margin: 5px auto !important;
+    padding: 10px 10px 20px !important;
+	}
 	.ignitiondeck .id-product-proposed-end {}
 		.ignitiondeck .id-widget-date {
 			color: black;
 		}
 	.ignitiondeck .id-progress-raised, .ignitiondeck .id-product-total {
 		color: #e65d57;
+    padding-top: 0.2em;
 	}
 	.ignitiondeck a.main-btn {
 		color: white!important; /* this wasn't the first important :( */
