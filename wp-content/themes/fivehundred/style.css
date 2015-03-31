@@ -2008,7 +2008,9 @@ h3#ign-levels-headline {
 .product-post-output br /* bloody wysiwyg auto br */, 
 .product-dashed-heading,
 #menu-header .menu li.createaccount,
-#menu-header .menu li.login {
+#menu-header .menu li.login,
+.ignitiondeck form .payment-type-selector,
+.ignitiondeck form .id-checkout-level-desc {
 	display: none;
 }
 .product-post-output {}
