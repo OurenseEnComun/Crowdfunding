@@ -2013,6 +2013,11 @@ h3#ign-levels-headline {
 .ignitiondeck form .id-checkout-level-desc {
 	display: none;
 }
+.idc_lightbox {
+	-webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
 .product-post-output {}
 	.product-post-output h1 {
 		text-indent: -500em;
