@@ -2197,6 +2197,14 @@ h3#ign-levels-headline {
 							width: 32px;
 							background-position: -329px 0;
 						}
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.dinner {
+							width: 59px;
+							background-position: -360px 0;
+						}
+						.ignitiondeck .id-product-levels a .id-level-desc .icons span.campaign {
+							width: 61px;
+							background-position: -419px 0;
+						}
 
 /**************************
 * Guanyem Web Team: END
