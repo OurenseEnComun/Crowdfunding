@@ -1103,12 +1103,16 @@ function fivehundred_scripts() {
 	//wp_register_style('open-sans', 'http://fonts.googleapis.com/css?family=Open+Sans');
 	wp_register_style('fivehundred', get_stylesheet_uri());
 	wp_register_script('fivehundred-js', get_bloginfo('template_url').'/js/fivehundred.js');
+	wp_register_script('bcomu-crowdfunding-plugins-js', get_bloginfo('template_url').'/js/bcomu_crowdfunding_plugins.js');
+	wp_register_script('bcomu-crowdfunding-init-js', get_bloginfo('template_url').'/js/bcomu_crowdfunding_init.js');
 	wp_enqueue_style('fivehundred');
 	wp_enqueue_script('jQuery');
 	wp_enqueue_script('thickbox');
 	wp_enqueue_style('thickbox');
 	//wp_enqueue_style('open-sans');
 	wp_enqueue_script('fivehundred-js');
+	wp_enqueue_script('bcomu-crowdfunding-plugins-js');
+	wp_enqueue_script('bcomu-crowdfunding-init-js');
 }
 
 add_action('wp_enqueue_scripts', 'fivehundred_scripts');

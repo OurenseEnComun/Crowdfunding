@@ -66,15 +66,4 @@ jQuery(document).ready(function() {
             jQuery('.content_tab.' + tabID).addClass('active').show();
         }
     });
-
-  /******************
-  * Guanyem Web Team
-  *******************/
-  // Crowdfunding: hide other language text divs
-  jQuery('.language-text').each(function(i){
-    if (jQuery(this).attr('lang') != icl_lang) jQuery(this).remove();
-  })
-
-  // icons
-  jQuery('.product-post-output h2[class]').prepend('<i class="icon" />');
 });
