@@ -2,6 +2,14 @@
 * Guanyem Web Team
 * bcomu-crowdfunding-init-js
 *******************/
+var locale = {
+  PLEDGE: {
+    ca: "Aporta",
+    es: "Aportar",
+    en: "Pledge"
+  },
+};
+
 (function($){
   // ON READY
   $(window).ready(function(){
@@ -23,5 +31,7 @@
       $due_date.text(locale_due_date);
     }
 
+    // pledge text minor change (get rid of ": N€")
+    $('.ignitiondeck .id-product-levels a .id-level-title span').text(locale.PLEDGE[icl_lang]);
   });
 })(jQuery);
