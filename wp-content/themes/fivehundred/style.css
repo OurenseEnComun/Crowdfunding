@@ -2006,7 +2006,9 @@ h3#ign-levels-headline {
 }
 .home #site-description,
 .product-post-output br /* bloody wysiwyg auto br */, 
-.product-dashed-heading {
+.product-dashed-heading,
+#menu-header .menu li.createaccount,
+#menu-header .menu li.login {
 	display: none;
 }
 .product-post-output {}
