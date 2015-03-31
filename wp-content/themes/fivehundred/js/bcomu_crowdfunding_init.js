@@ -2,16 +2,10 @@
 * Guanyem Web Team
 * bcomu-crowdfunding-init-js
 *******************/
-var config = {
-  LANGUAGE: 'ca'
-};
-
 (function($){
   // ON READY
   $(window).ready(function(){
-    config.LANGUAGE = $('html').attr('lang');
-
-    moment.locale(config.LANGUAGE);
+    moment.locale(icl_lang);
 
     // Crowdfunding: hide other language text divs
     $('.language-text').each(function(i){
