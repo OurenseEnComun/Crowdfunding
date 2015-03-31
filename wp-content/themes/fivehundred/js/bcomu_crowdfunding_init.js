@@ -40,6 +40,6 @@ var locale = {
     $('.ignitiondeck .id-product-levels a .id-level-title span').text(locale.PLEDGE[icl_lang]);
 
     // submit payment btn translation
-    $('.ignitiondeck form input[type=submit]').attr('value', locale.SUBMIT_PAYMENT[icl_lang]);
+    $('.ignitiondeck form#form_pay input[type=submit]').attr('value', locale.SUBMIT_PAYMENT[icl_lang]);
   });
 })(jQuery);
