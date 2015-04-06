@@ -399,8 +399,8 @@ function id_projectPageComplete($attrs) {
 		$float = 1;
 		$custom = apply_filters('idcf_custom_deck', $custom, $the_deck->post_id);
 		$attrs = apply_filters('idcf_deck_attrs', (isset($attrs) ? $attrs : null), $the_deck->post_id);
-		include 'templates/_projectContent.php';
 		include 'templates/_igWidget.php';
+		include 'templates/_projectContent.php';
 		echo '<div style="clear: both;"></div>';
 		$content = ob_get_contents();
 		ob_end_clean();
