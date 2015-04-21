@@ -814,7 +814,18 @@
     font-size: 16px;
     margin: 10px; }
   .ignitiondeck form .id-buy-form-currency, .ignitiondeck form .preorder-form-product-price {
-    font-size: 24px; }
+    font-size: 28px; }
+	#id-buy-form-currency {
+		font-size: 28px;
+	}
+  .ign-checkout-price .idfield_label {
+  	font-size: 28px;
+  }
+  .ign-checkout-button .main-btn {
+	  display: inline-block !important;
+	  width: 48% !important;
+	  margin-left:1% !important;
+  }
   .ignitiondeck form .noclick {
     text-decoration: none !important;
     cursor: default !important;

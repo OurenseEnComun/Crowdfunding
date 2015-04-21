@@ -185,7 +185,7 @@
 					<div class="ign-checkout-price idinput">
 						<label class="idfield_label" for="price"><?php echo $tr_Total_Contribution; ?> </label>
 						<div class="idfield">
-							<span class="id-buy-form-currency"><?php echo (isset($purchase_form->cCode) ? $purchase_form->cCode : ''); ?></span>
+							
 							<span class="preorder-form-product-price">
 								<?php 
 								if (isset($level) && $level >= 1) {
@@ -195,9 +195,15 @@
 									echo (isset($purchase_form->the_project) ? $purchase_form->the_project->product_price : '');
 								} ?>
 							</span>
+							<span class="id-buy-form-currency"><?php echo (isset($purchase_form->cCode) ? $purchase_form->cCode : ''); ?></span>
 						</div>
 					</div>
-					<div class="ign-checkout-button"><input class="main-btn" type="submit" value="<?php echo $tr_Make_Payment; ?>" name="<?php echo $purchase_form->submit_btn_name ?>" id="button_pay_purchase"/>
+					<div class="ign-checkout-button">
+						
+						
+						<input class="main-btn" type="submit" value="<?php echo $tr_Make_Payment; ?>" name="<?php echo $purchase_form->submit_btn_name ?>" id="button_pay_purchase"/>
+						<input class="main-btn" type="submit" value="Pagar con tarxeta" name="submitPaymentPopupByCard" id="button_pay_purchase_by_card"/>
+						
 					</div>
 					<div class="clear"></div>
 				</li>

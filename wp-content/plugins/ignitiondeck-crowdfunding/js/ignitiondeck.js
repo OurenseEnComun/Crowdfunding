@@ -139,8 +139,8 @@ jQuery(document).ready(function() {
         e.preventDefault();
         jQuery('#message-container').hide();
     });
-    jQuery("#button_pay_purchase").click(function(e) {
-    	if (btnName.indexOf('Paypal') == -1 && btnName.indexOf('Preapproval') == -1 && btnName.indexOf('Adaptive') == -1 && btnName.indexOf('Popup') == -1) {
+    jQuery("#button_pay_purchase, #button_pay_purchase_by_card").click(function(e) {
+    	if (btnName.indexOf('Paypal') == -1 && btnName.indexOf('tarxeta') == -1 && btnName.indexOf('Preapproval') == -1 && btnName.indexOf('Adaptive') == -1 && btnName.indexOf('Popup') == -1) {
         	e.preventDefault();
         }
         var price = parseInt(jQuery('input[name="price"]').val());
@@ -150,7 +150,7 @@ jQuery(document).ready(function() {
 	        var post_id = jQuery('#form_pay').data('postid');
 	        var project = jQuery('#form_pay').data('projectid');
 	        var url = id_siteurl;
-	        jQuery(".ign-checkout-button .main-btn").val('Processing...');
+	        jQuery(".ign-checkout-button .main-btn").val('Procesando...');
 	        jQuery(this).attr('disabled', 'disabled');
 	        var widgetClass = jQuery('.id-purchase-form div:first-child').attr('id');
 	        var validate = checkIgnitionDeckForm(widgetClass, proj_type, level, post_id, project, url);
@@ -163,7 +163,8 @@ jQuery(document).ready(function() {
 	        }
 	        else {
 	        	jQuery(this).removeAttr('disabled');
-	            jQuery(".ign-checkout-button .main-btn").val('Continue Checkout');
+	            jQuery("#button_pay_purchase").val('Pagar con PayPal');
+				jQuery("#button_pay_purchase_by_card").val('Pagar con tarxeta');
 	            jQuery(document).trigger('validate', false);
 	        }
 	    }
@@ -212,7 +213,7 @@ function checkIgnitionDeckForm(formId, type, level, post_id, project, url){
         if(isEmpty(this)){
         	//console.log(this);
             jQuery(this).addClass('red-border');
-            jQuery(this).after('<span class="form-item-error-msg"> required </span>');
+            jQuery(this).after('<span class="form-item-error-msg"> Obrigatorio </span>');
             
             if(result){
                result= !result;
@@ -222,7 +223,7 @@ function checkIgnitionDeckForm(formId, type, level, post_id, project, url){
 
     if(!isEmail(jQuery('#'+ formId +' .email').val())){
         jQuery('#'+ formId +' .email').addClass('red-border');
-        jQuery('#'+ formId +' .email').after('<span class="form-item-error-msg"> invalid </span>');
+        jQuery('#'+ formId +' .email').after('<span class="form-item-error-msg"> Non válido </span>');
         
         if(result){
            result= !result;
@@ -305,7 +306,7 @@ function submitPurchaseForm(ajax_url) {
 	//jQuery('#submitBtn').trigger('click');
 	//return false;
 	//jQuery('#btnPayKey').attr('style','background: url("../images/loading.gif") no-repeat scroll top right transparent;');
-	jQuery('#btnPayKey').val('Processing Payment...');
+	jQuery('#btnPayKey').val('Procesando Pagamento...');
 	jQuery.ajax({
 		type: "POST",
 		url: ajax_url,

@@ -108,7 +108,7 @@ function id_price_format($amount, $post_id) {
 		$amount = number_format($amount, 2, '.', ',');
 	}
 	//$amount = apply_filters('id_price_total_selection', $amount, $post_id);
-	return $currency_code.$amount;
+	return $amount.$currency_code;
 }
 add_filter('id_price_format', 'id_price_format', 10, 2);
 

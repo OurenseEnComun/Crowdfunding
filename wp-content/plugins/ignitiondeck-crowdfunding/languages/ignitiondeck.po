@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IgnitionDeck 1.22\n"
 "POT-Creation-Date: 2015-03-02 11:29-0500\n"
-"PO-Revision-Date: 2015-03-02 11:29-0500\n"
+"PO-Revision-Date: 2015-04-12 13:49+0100\n"
 "Last-Translator: Nathan Hangen <nhangen@gmail.com>\n"
 "Language-Team: Virtuous Giant <hello@virtuousgiant.com>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -596,7 +596,7 @@ msgstr ""
 
 #: .././ignitiondeck-update.php:91
 msgid "An unknown error occurred"
-msgstr "An unknown error occurred"
+msgstr "Ocurriu un erro. Por favor inténteo de novo máis tarde."
 
 #: .././ignitiondeck.php:1705 .././ignitiondeck.php:1769
 msgid "Default"
@@ -649,7 +649,7 @@ msgstr "No Projects Found in Trash"
 
 #: .././languages/text_variables.php:15
 msgid "Days Remaining"
-msgstr "Days Remaining"
+msgstr "días restantes"
 
 #: .././languages/text_variables.php:16
 msgid "No funding goal set"
@@ -818,7 +818,7 @@ msgstr "Buyers"
 
 #: .././languages/text_variables.php:59
 msgid "Redirecting to Paypal..."
-msgstr "Redirecting to Paypal..."
+msgstr "Redirixindo a PayPal..."
 
 #: .././languages/text_variables.php:60
 msgid "Twitter.connection.failed"
@@ -826,7 +826,7 @@ msgstr "Twitter.connection.failed"
 
 #: .././languages/text_variables.php:61
 msgid "Error occured let's try again"
-msgstr "Error occurred let's try again"
+msgstr "Ocurriu un erro. Por favor inténteo de novo máis tarde."
 
 #: .././languages/text_variables.php:62
 msgid "Twitter.share.success"
@@ -855,7 +855,7 @@ msgstr "Name"
 
 #: .././languages/text_variables.php:68
 msgid "Email"
-msgstr "Email"
+msgstr "Correo electrónico"
 
 #: .././languages/text_variables.php:69
 msgid "Subject"
@@ -900,7 +900,7 @@ msgstr "Learn More"
 
 #: .././languages/text_variables.php:80
 msgid "Support Now"
-msgstr "Support Now"
+msgstr "Apoie este proxecto"
 
 #: .././languages/text_variables.php:81
 msgid "Our Earliest Buyers"
@@ -920,47 +920,47 @@ msgstr "Powered By IgnitionDeck"
 
 #: .././languages/text_variables.php:85
 msgid "Payment Information"
-msgstr "Payment Information"
+msgstr "Información do pagamento"
 
 #: .././languages/text_variables.php:86
 msgid "First Name"
-msgstr "First Name"
+msgstr "Nome"
 
 #: .././languages/text_variables.php:87
 msgid "Last Name"
-msgstr "Last Name"
+msgstr "Apelidos"
 
 #: .././languages/text_variables.php:88
 msgid "Address"
-msgstr "Address"
+msgstr "Dirección"
 
 #: .././languages/text_variables.php:89
 msgid "Country"
-msgstr "Country"
+msgstr "País"
 
 #: .././languages/text_variables.php:90
 msgid "State"
-msgstr "State"
+msgstr "Provincia"
 
 #: .././languages/text_variables.php:91
 msgid "City"
-msgstr "City"
+msgstr "Cidade"
 
 #: .././languages/text_variables.php:92
 msgid "Zip"
-msgstr "Zip"
+msgstr "DNI / Pasaporte"
 
 #: .././languages/text_variables.php:93
 msgid "Pay with Paypal"
-msgstr "Pay with Paypal"
+msgstr "Pagar con PayPal"
 
 #: .././languages/text_variables.php:94
 msgid "Funding"
-msgstr "Funding"
+msgstr "Financiamento"
 
 #: .././languages/text_variables.php:95
 msgid "Total Sale"
-msgstr "Total Sale"
+msgstr "Total"
 
 #: .././languages/text_variables.php:97
 #, fuzzy
@@ -983,11 +983,11 @@ msgstr "Yes"
 
 #: .././languages/text_variables.php:101
 msgid "No"
-msgstr "No"
+msgstr "Non"
 
 #: .././languages/text_variables.php:103
 msgid "Please share your experience with your friends!"
-msgstr "Please share your experience with your friends!"
+msgstr "Por favor, comparte a túa experiencia"
 
 #: .././languages/text_variables.php:104
 msgid "API key"
@@ -995,7 +995,7 @@ msgstr "API key"
 
 #: .././languages/text_variables.php:105
 msgid "Subscription Email"
-msgstr "Subscription Email"
+msgstr "Correo electrónico para a suscripción"
 
 #: .././languages/text_variables.php:106
 msgid "Aweber Settings"
@@ -1047,24 +1047,23 @@ msgstr "Text to share"
 
 #: .././languages/text_variables.php:119
 msgid "Email Address"
-msgstr "Email Address"
+msgstr "Dirección de correo electrónico"
 
 #: .././languages/text_variables.php:120
 msgid "Zip Code"
-msgstr "Zip Code"
+msgstr "Código postal"
 
 #: .././languages/text_variables.php:121
-#, fuzzy
 msgid "Status"
-msgstr "Status"
+msgstr "Estado"
 
 #: .././languages/text_variables.php:122
 msgid "Pending"
-msgstr "Pending"
+msgstr "Pendente"
 
 #: .././languages/text_variables.php:123
 msgid "Complete"
-msgstr "Complete"
+msgstr "Completado"
 
 #: .././languages/text_variables.php:124
 #: .././templates/admin/_customSettings.php:149
@@ -1150,7 +1149,7 @@ msgstr "Change"
 
 #: .././languages/text_variables.php:149
 msgid "Close"
-msgstr "Close"
+msgstr "Pechar"
 
 #: .././languages/text_variables.php:151
 msgid "Project Price"
@@ -1194,7 +1193,7 @@ msgstr "Enabled"
 
 #: .././languages/text_variables.php:164
 msgid "Mandatory"
-msgstr "Mandatory"
+msgstr "Obrigatorio"
 
 #: .././languages/text_variables.php:165
 msgid "First name"
@@ -1657,7 +1656,7 @@ msgstr "Taken"
 
 #: .././languages/text_variables.php:279
 msgid "Total Contribution"
-msgstr "Total Contribution"
+msgstr "Achega"
 
 #: .././languages/text_variables.php:280
 msgid "Delete Last Level"
@@ -1673,11 +1672,11 @@ msgstr "Additional Project Information"
 
 #: .././languages/text_variables.php:287
 msgid "Awesome! You are about to support"
-msgstr "Awesome! You are about to support"
+msgstr " "
 
 #: .././languages/text_variables.php:289
 msgid "Required"
-msgstr "Required"
+msgstr "Obrigatorio"
 
 #: .././languages/text_variables.php:290
 msgid "Publishable Key"
@@ -1685,7 +1684,7 @@ msgstr "Publishable Key"
 
 #: .././languages/text_variables.php:291
 msgid "Payment Method"
-msgstr "Payment Method"
+msgstr "Método de pago"
 
 #: .././languages/text_variables.php:292
 msgid "Payment Method Selection"
@@ -1979,16 +1978,15 @@ msgstr "RAISED"
 
 #: .././templates/_lbLevelSelect.php:14
 msgid "Step 1:"
-msgstr "Step 1:"
+msgstr "Paso 1:"
 
 #: .././templates/_lbLevelSelect.php:14
-#, fuzzy
 msgid "Specify your contribution amount for"
-msgstr "Specifiy your contribution amount for"
+msgstr "Elixe a túa achega."
 
 #: .././templates/_lbLevelSelect.php:19
 msgid "Contribution Level"
-msgstr "Contribution Level"
+msgstr "Achega"
 
 #: .././templates/_lbLevelSelect.php:33
 msgid "Total"
@@ -1996,7 +1994,7 @@ msgstr "Total"
 
 #: .././templates/_lbLevelSelect.php:49
 msgid "Next Step"
-msgstr "Next Step"
+msgstr "Seguinte paso"
 
 #: .././templates/admin/_orderDetails.php:335
 #, fuzzy
@@ -2166,7 +2164,7 @@ msgstr "Brazilian Real"
 
 #: .././templates/admin/_productSettings.php:52
 msgid "Check All"
-msgstr "Check All"
+msgstr "Por favor, complete todos os campos."
 
 #: .././templates/admin/_productSettings.php:171
 msgid "Automatically insert project template"
@@ -2198,7 +2196,7 @@ msgstr "Process Authorizations"
 
 #: .././templates/admin/_settingsIgnDeck.php:17
 msgid "Validate"
-msgstr "Validate"
+msgstr "Validar"
 
 #: .././templates/admin/_settingsIgnDeck.php:23
 msgid " License Valid for"

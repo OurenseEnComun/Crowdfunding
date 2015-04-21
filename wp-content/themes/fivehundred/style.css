@@ -9,6 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, white, blue, one-column, two-columns, right-sidebar, theme-options, full-width-template, custom-menu
 */
 
+@import url('inc/css/font-bebas.css');
 @import url('style-reset.css');
 @import url('style-widgets.css');
 @import url('style-comments.css');
@@ -195,8 +196,9 @@ footer #copyright {
 body {
 	color: #616161;
 	background: rgb(250,250,250);	
-	font-family: Helvetica, Verdana, Arial, Geneva, sans-serif;
-	font-size: 16px;
+	font-family: Open Sans, Verdana, Arial, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
 }
 
 body a {
@@ -321,15 +323,18 @@ article.sticky .featured-post {
 h1,
 .entry-content h1,
 .comment-content h1 {
-	font-size: 28px;
+	font-family: 'BebasNeue', Open Sans, Verdana, Helvetica, Arial;
+	font-size: 30px;
 	line-height: 1.5;
-	font-weight: bold;
+	font-weight: 400;
+	color: #00aedf;
 }
 h2,
 .entry-content h2,
 .comment-content h2,
 .mu_register h2 {
-	font-size: 24px;
+	font-family: 'BebasNeue', Open Sans, Verdana, Helvetica, Arial;
+	font-size: 28px;
 	line-height: 1.6;
 	padding: 0 0 3px 0;
 	margin: 10px 0 15px 0;
@@ -337,7 +342,8 @@ h2,
 h3,
 .entry-content h3,
 .comment-content h3 {
-	font-size: 20px;
+	font-family: 'BebasNeue', Open Sans, Verdana, Helvetica, Arial;
+	font-size: 24px;
 	line-height: 1.846153846;
 	padding: 0 0 3px 0;
 	margin: 10px 0 15px 0;
@@ -345,21 +351,24 @@ h3,
 h4,
 .entry-content h4,
 .comment-content h4 {
-	font-size: 16px;
+	font-family: 'BebasNeue', Open Sans, Verdana, Helvetica, Arial;
+	font-size: 20px;
 	line-height: 1.846153846;
-	font-weight: bold;
+	font-weight: 400;
 }
 h5,
 .entry-content h5,
 .comment-content h5 {
-	font-size: 14px;
+	font-family: 'BebasNeue', Open Sans, Verdana, Helvetica, Arial;
+	font-size: 16px;
 	line-height: 1.846153846;
 	font-weight: bold;
 }
 h6,
 entry-content h6,
 .comment-content h6 {
-	font-size: 12px;
+	font-family: 'BebasNeue', Open Sans, Verdana, Helvetica, Arial;
+	font-size: 14px;
 	line-height: 1.846153846;
 	font-weight: bold;
 }
@@ -368,7 +377,7 @@ entry-content h6,
 .comment-content p,
 .mu_register p {
 	margin: 0 0 24px;
-	line-height: 1.1;
+	line-height: 1.5;
 }
 .entry-content ol,
 .comment-content ol,
@@ -625,18 +634,19 @@ nav#menu-header-mobile .login a{
 	}
 
 nav#menu-header {
-	width: 67%;
+	/*width: 67%;
 	max-width: 650px;
 	height: 26px;
+	text-align: right;
+	z-index:3;*/
+	float: right;
 	display: inline-block;
 	margin: 0;
 	vertical-align: middle;
-	text-align: right;
-	z-index:3;
 }
 
 /****** Main Tabs ******/
-#menu-header ul.menu, #menu-header div.menu ul.defaultMenu, #menu-header .menu ul  { list-style:none; margin-bottom:0px; display:inline-block; z-index: 999; position: absolute; right: 0;
+#menu-header ul.menu, #menu-header div.menu ul.defaultMenu, #menu-header .menu ul  { list-style:none; margin-bottom:0px; display:inline-block;
 }
 #menu-header ul.menu li, #menu-header ul.defaultMenu li, #menu-header .menu ul li {
 	margin: 0; 
@@ -1240,6 +1250,7 @@ h2.entry-title.featuredimage .entry-meta {
 	display: block;
 	color: #6f6f6f;
 	font-size: 64px;
+	line-height: 100%;
 }
 .ign-raised {
 	text-align: center;
@@ -1247,13 +1258,15 @@ h2.entry-title.featuredimage .entry-meta {
 .ign-product-supporters {
 	text-align: center;
 	width: auto;
-	margin: 10px auto 0 auto;
+	margin: 0 auto;
+	text-align: center;
 }
 .ign-product-supporters strong{
 	font-size: 64px;
 	color: #6f6f6f;
 	font-weight: normal;
 	letter-spacing: 2px;
+	line-height: 100%;
 }
 
 #ign-hDeck-right .internal #hDeck-right-bottom {
@@ -1266,9 +1279,6 @@ h2.entry-title.featuredimage .entry-meta {
 .ign-supportnow {
 	display: inline-block;
 	vertical-align: bottom;
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	width: 65%;
 }
 .ign-supportnow a {	
@@ -1313,14 +1323,14 @@ h2.entry-title.featuredimage .entry-meta {
     margin: 0;
 }
 .ign-product-proposed-end #ign-widget-date #ign-widget-month {
-    color: #A14A36;
+    color: #ffffff;
     font-weight: bold;
     width: 80px;
     display: block;
     text-align: center;
     line-height: 18px;
 	font-size: 10px;
-	background: rgb(246,164,127);
+	background: none;
 	text-transform: uppercase;
 }
 .ign-product-proposed-end #ign-widget-date #ign-widget-day {
@@ -1343,7 +1353,8 @@ h2.entry-title.featuredimage .entry-meta {
 }
 
 #ign-product-levels a .level-group .ign-level-desc:hover {
-	background-color: rgba(13,187,242,0.1);
+	background-color: #E9E9E9;
+	opacity: .9;
 }
 
 #ign-product-levels a {
@@ -1353,8 +1364,8 @@ h2.entry-title.featuredimage .entry-meta {
 	text-decoration: underline;
 }
 #ign-product-levels .ign-level-title {
-	font-weight: normal;
-	font-size: 20px;
+	font-weight: bold;
+	font-size: 18px;
 	padding: 3px;
 	display: block;
 	margin: 15px 0 3px 0;
@@ -1370,11 +1381,14 @@ h2.entry-title.featuredimage .entry-meta {
 #ign-product-levels .ign-level-desc {
 	color: #606160;
 	font-weight: normal;
-	background-color: #fbfcfb;
-	padding: 8px 8px 8px 16px;
-	border: 1px solid #ddd;
-	font-size: 16px;
-	line-height: 1.4em;
+	background-color: #FBFCFB;
+	padding: 8px 24px 8px 16px;
+	border: 2px solid #DDD;
+	font-size: 13px;
+	line-height: 150%;
+	background-image: url("http://achegas.mareatlantica.org/wp-content/uploads/2015/04/pinga.png");
+	background-repeat: no-repeat;
+	background-position: right;
 }
 #ign-product-levels .ign-level-counts {
 	color: #0bbbf2;
@@ -1449,11 +1463,11 @@ ul.content_tabs {
     text-align: left;
     font-size: 0;
     width: 100%;
-    border-bottom: 3px solid;
+    border-bottom: none;
     margin: 10px 0;
 }
 ul.content_tabs li {
-    display: inline-block;
+    display: none;
     background-color: transparent;
     padding: 10px 25px;
     margin: 0 !important;
@@ -2359,6 +2373,7 @@ h3#ign-levels-headline {
 	    background: rgba(249, 250, 249, 0.9);
 	}
 	nav#menu-header {
+		float: none;
 		width: auto;
 		display: block;
 		text-align: center;
@@ -2499,7 +2514,9 @@ h3#ign-levels-headline {
 	}
 
 	nav#menu-header {
+		float: none;
 		width: 100%;
+		height: auto;
 		display: block;
 		text-align: center;
 	}
@@ -2808,6 +2825,13 @@ h3#ign-levels-headline {
 		width: 85%;
 		margin: 10px auto;
 	}
+	/*Botones de pagar version responsive*/
+		.ign-checkout-button .main-btn {
+    display: block !important;
+    margin-left: 0 !important;
+    width: 100% !important;}
+    #button_pay_purchase_by_card{margin-top: 10px;}
+    .ignitiondeck form .main-btn, .ignitiondeck form input[type="submit"] { padding: 26px 0 }
 }
 
 @media screen and (max-width: 320px) {
@@ -2856,6 +2880,7 @@ h3#ign-levels-headline {
 
 
 	nav#menu-header {
+		float: none;
 		width: 100%;
 		display: none;
 		text-align: center;
@@ -3135,4 +3160,11 @@ h3#ign-levels-headline {
 		width: 90%;
 		margin: 10px auto;
 	}
+	/* Botones pagar responsive*/
+	.ign-checkout-button .main-btn {
+    display: block !important;
+    margin-left: 0 !important;
+    width: 100% !important;}
+    #button_pay_purchase_by_card{margin-top: 10px;}
+        .ignitiondeck form .main-btn, .ignitiondeck form input[type="submit"] { padding: 26px 0 }
 }

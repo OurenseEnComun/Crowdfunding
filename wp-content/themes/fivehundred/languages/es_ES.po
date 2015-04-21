@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: IgnitionDeck 500 Framework\n"
 "POT-Creation-Date: 2015-03-02 11:32-0500\n"
 "PO-Revision-Date: 2015-04-10 23:58+0100\n"
-"Last-Translator: Nathan Hangen <nhangen@gmail.com>\n"
+"Last-Translator: Diego Jimenez <diegomestizo@riseup.net>\n"
 "Language-Team: Virtuous Giant <info@virtuousgiant.com>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: ../../fivehundred-classic/archive-ignition_product.php:7
 #: ../archive-ignition_product.php:5
 msgid "All Projects"
-msgstr ""
+msgstr "Todos los proyectos"
 
 #: ../../fivehundred-classic/footer-home.php:42 ../footer.php:24
 msgid "Theme 500 is a"
@@ -30,13 +30,13 @@ msgstr ""
 
 #: ../../fivehundred-classic/front-page.php:70
 msgid "Other Projects"
-msgstr ""
+msgstr "Otros proyectos"
 
 #: ../../fivehundred-classic/front-page.php:100
 #: ../../fivehundred-classic/page-grid-template.php:67 ../front-page.php:92
 #: ../page-grid-template.php:59
 msgid "Follow"
-msgstr ""
+msgstr "Seguir"
 
 #: ../../fivehundred-classic/front-page.php:101
 #: ../../fivehundred-classic/page-grid-template.php:68 ../front-page.php:93
@@ -54,22 +54,22 @@ msgstr ""
 #: ../../fivehundred-classic/page-grid-template.php:70 ../front-page.php:95
 #: ../page-grid-template.php:62
 msgid "Connect"
-msgstr ""
+msgstr "Conectar"
 
 #: ../../fivehundred-classic/front-page.php:105
 #: ../../fivehundred-classic/page-grid-template.php:72 ../front-page.php:97
 #: ../page-grid-template.php:64
 msgid "More"
-msgstr ""
+msgstr "Más"
 
 #: ../../fivehundred-classic/front-page.php:105
 msgid "Projects &raquo;"
-msgstr ""
+msgstr "Proyectos &raquo;"
 
 #: ../../fivehundred-classic/functions.php:72
 #: ../templates/admin/_themeSettings.php:32
 msgid "Featured Project on Home Page"
-msgstr ""
+msgstr "Proyecto destacado en Inicio"
 
 #: ../../fivehundred-classic/functions.php:74
 msgid "Choose Post to Feature"
@@ -494,15 +494,15 @@ msgstr ""
 
 #: ../comments.php:40
 msgid "Comments are closed."
-msgstr ""
+msgstr "Los comentarios están cerrados."
 
 #: ../entry-footer.php:4
 msgid "Read More..."
-msgstr ""
+msgstr "Leer más"
 
 #: ../entry-meta.php:3
 msgid "By"
-msgstr ""
+msgstr "Por"
 
 #: ../entry-meta.php:4
 #, php-format
@@ -833,11 +833,11 @@ msgstr ""
 
 #: ../templates/_projectGrid.php:36
 msgid "goal"
-msgstr ""
+msgstr "meta"
 
 #: ../templates/_projectGrid.php:40
 msgid "Pledgers"
-msgstr ""
+msgstr "Mecenas"
 
 #: ../templates/_projectGrid.php:45
 msgid "Days to go"

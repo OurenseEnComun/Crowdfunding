@@ -15,9 +15,9 @@ if (!empty($social_settings)) {
 	if (isset($social_settings['social_checks'])) {
 		$social_checks = $social_settings['social_checks'];
 		$settings = (object) $social_checks;
-		if (isset($settings->prod_page_fb) && $settings->prod_page_fb) {
+//		if (isset($settings->prod_page_fb) && $settings->prod_page_fb) {
 			echo '<div id="fb-root"></div><div id="share-fb" class="fb-like social-share social-button" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>';
-		}
+//		}
 		if (isset($settings->prod_page_twitter) && $settings->prod_page_twitter) {
 			//$post_output .= '<div style="float:right;"><a href="http://twitter.com/share" target="_new" class="twitter-share-button button twitter" data-count="vertical">tweet</a></div>';
 			echo '<div id="share-twitter" class="social-share social-button"><a href="https://twitter.com/share" class="twitter-share-button">'.__('Tweet', 'fivehundred').'</a>
@@ -39,8 +39,8 @@ if (!empty($social_settings)) {
 	}
 }
 ?>
-<div id="share-embed" class="social-share"><i class="fa fa-code"></i></div>
+<!--<div id="share-embed" class="social-share"><i class="fa fa-code"></i></div>
 <div class="embed-box social-share" style="display: none;">
 	<code>&#60;iframe frameBorder="0" scrolling="no" src="<?php echo home_url(); ?>/?ig_embed_widget=1&product_no=<?php echo (isset($project_id) ? $project_id : ''); ?>" width="214" height="366"&#62;&#60;/iframe&#62;</code>
-</div>
+</div> -->
 <div class="clear"></div>

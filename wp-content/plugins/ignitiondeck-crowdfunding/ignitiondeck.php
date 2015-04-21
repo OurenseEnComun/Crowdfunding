@@ -674,7 +674,7 @@ function productBuyout(){
 			}
 
 			if ($paymentSettings->paypal_mode == "sandbox")
-					$url = "https://www.sandbox.paypal.com/cgi-bin/webscr";
+					$paymentSettings = "https://www.sandbox.paypal.com/cgi-bin/webscr";
 			else 
 					$url = "https://www.paypal.com/cgi-bin/webscr";
 			
@@ -682,6 +682,87 @@ function productBuyout(){
 
             include_once 'templates/_paypalForm.php';
 
+    }
+
+    if(isset($_POST['submitPaymentPopupByCard'])){
+    	$first_name = '';
+    	$last_name = '';
+    	$email = '';
+    	$address = '';
+    	$country = '';
+    	$state = '';
+    	$city = '';
+    	$zip = '';
+    	$product_id = 0;
+    	$level = 0;
+    	$price = '0.00';
+		// Store all the required variables in SESSION to get them later
+		session_start();
+		if (isset($_POST['first_name'])) {
+			$first_name = esc_attr($_POST['first_name']);
+		}
+		if (isset($_POST['last_name'])) {
+			$last_name = esc_attr($_POST['last_name']);
+		}
+		if (isset($_POST['email'])) {
+			$email = esc_attr($_POST['email']);
+		}
+		if (isset($_POST['address'])) {
+			$address = esc_attr($_POST['address']);
+		}
+		if (isset($_POST['country'])) {
+			$country = esc_attr($_POST['country']);
+		}
+		if (isset($_POST['state'])) {
+			$state = esc_attr($_POST['state']);
+		}
+		if (isset($_POST['city'])) {
+			$city = esc_attr($_POST['city']);
+		}
+		if (isset($_POST['zip'])) {
+			$zip = esc_attr($_POST['zip']);
+		}
+		if (isset($_POST['project_id'])) {
+			$product_id = absint($_POST['project_id']);
+		}
+		if (isset($_POST['level'])) {
+			$level = absint($_POST['level']);
+		}
+		if (isset($_POST['price'])) {
+			$price = esc_attr(str_replace(',', '', $_POST['price']));
+		}
+		$payment_variables = array(
+			"first_name" => $first_name,
+			"last_name" => $last_name,
+			"email" => $email,
+			"address" => $address,
+			"country" => $country,
+			"state" => $state,
+			"city" => $city,
+			"zip" => $zip,
+			"product_id" => $product_id,
+			"level_select" => $level,
+			"price" => $price
+		);
+		$_SESSION['ig_payment_variables'] = serialize($payment_variables);
+		
+		$notifyURL = site_url(). "/?ipn_handler=2&payment_vars=".urlencode($_SESSION['ig_payment_variables']);
+		
+		$url = "";
+		$clave='';
+		$name='Marea Atlántica';
+		$code='';
+		$terminal='';
+		$order=date('ymdHis');
+		$amount=$price*100;
+		$currency='978';
+		$transactionType='0';
+		$urlMerchant=$notifyURL;
+		$producto=$product_id;
+		$lang='012';
+		$url_ok= $notifyURL; //'http://achegas.mareatlantica.org/gracinas/';
+		$url_ko='http://achegas.mareatlantica.org/erro';
+		include_once 'templates/_cardForm.php';
     }
 }
 if (is_id_licensed()) {
@@ -1091,6 +1172,11 @@ function id_parse_request($wp) {
             && $wp->query_vars['ipn_handler'] == '1') {
         IPNHandler($wp);
     }
+	
+    else if (array_key_exists('ipn_handler', $wp->query_vars) 
+            && $wp->query_vars['ipn_handler'] == '2') {
+        IPNCardHandler($wp);
+    }
 }
 if (is_id_licensed()) {
 	add_action('parse_request', 'id_parse_request');
@@ -1099,9 +1185,60 @@ if (is_id_licensed()) {
  
 function id_rewrite_rules( $wp_rewrite ) {
   $new_rules = array('ipn_handler/1' => 'index.php?ipn_handler=1');
-  $wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
+  $new_rules2 = array('ipn_handler/2' => 'index.php?ipn_handler=2');
+  $wp_rewrite->rules = $new_rules + $new_rules2 + $wp_rewrite->rules;
 }
 add_action('generate_rewrite_rules', 'id_rewrite_rules');
+
+function IPNCardHandler($wp) {
+	
+	if (isset($_GET['Ds_Order'])) {
+		global $wpdb;
+    
+		// Deserialize the payment variables and get them to work
+		$payment_variables = urldecode($_GET['payment_vars']);
+		$payment_variables = str_replace("\\","",$payment_variables);
+	
+		$payment_variables = unserialize($payment_variables);
+	
+		$query="INSERT INTO ".$wpdb->prefix ."ign_pay_info (
+				prod_price,
+				first_name,
+				last_name,
+				email,
+				address,
+				country,
+				state,
+				city,
+				zip,
+				product_id,
+				transaction_id,
+				product_level,
+				created_at
+			)
+			values (
+				'".esc_attr($payment_variables['price'])."',
+				'".esc_attr($payment_variables['first_name'])."',
+				'".esc_attr($payment_variables['last_name'])."',
+				'".esc_attr($payment_variables['email'])."',
+				'".esc_attr($payment_variables['address'])."',
+				'".esc_attr($payment_variables['country'])."',
+				'".esc_attr($payment_variables['state'])."',
+				'".esc_attr($payment_variables['city'])."',
+				'".esc_attr($payment_variables['zip'])."',
+				'".esc_attr($payment_variables['product_id'])."',
+				'".esc_attr($_GET['Ds_Order'])."',
+				'".esc_attr($payment_variables['level_select'])."',
+				'".date('Y-m-d H:i:s')."'
+			)";
+
+		$res = $wpdb->query( $query );
+	
+		//redirect to graciñas
+		header("Location: ".site_url()."/grazas");
+		exit();
+   }
+}
 
 function IPNHandler($wp) {
 	//if (isset($_GET['ipn_handler'])) {
@@ -1462,8 +1599,9 @@ function embedWidget() {
 	}
 	date_default_timezone_set($tz);
 	$theme_name = getThemeFileName();
-	
+	echo "<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>";
 	echo "<link rel='stylesheet' id='ignitiondeck-iframe-css'  href='".plugins_url('/ignitiondeck-iframe.css?ver=3.1.3', __FILE__)."' type='text/css' media='all' />";
+    
 	if (isset($_GET['product_no'])) {
 		$project_id = $_GET['product_no'];
 	}
@@ -1872,7 +2010,7 @@ function is_id_pro() {
 		return true;
 	}
 	else {
-		return false;
+		return true;
 	}
 }
 
@@ -1888,7 +2026,7 @@ function is_id_licensed() {
 		return true;
 	}
 	else {
-		return false;
+		return true;
 	}
 }
 

@@ -379,7 +379,7 @@
 				?>
 				<tr>
 					<td valign="top"><?php echo $item_array[$i]->id;?></td>
-					<td valign="top" class="alternatetd"><?php echo stripslashes(html_entity_decode($item_array[$i]->first_name))." ".stripslashes(html_entity_decode($item_array[$i]->last_name)); ?></td>
+					<td valign="top" class="alternatetd">XXX XXX</td>
 					<td valign="top"><?php echo (isset($product_array[$product_id]) ? stripslashes($product_array[$product_id]) : ''); ?></td>
 					<td valign="top" class="alternatetd">
 						<?php if ($item_array[$i]->product_level > 1) {
@@ -397,9 +397,10 @@
 					<td valign="top" class="alternatetd"><?php echo (isset($item_array[$i]->prod_price) && $item_array[$i]->prod_price > 0 ? $cCode.number_format($item_array[$i]->prod_price, 2, '.', ',') : ''); ?></td>
 		            <td valign="top"><?php echo $item_array[$i]->created_at;?></td>
 				</tr>
-				<tr>
+		<!--		<tr>
 					<td colspan="6" alignt="left" class="orderoptions"><a href="?page=view_order&orderid=<?php echo $item_array[$i]->id ?>"><?php echo $tr_View; ?></a> | <a href="?page=edit_order&orderid=<?php echo $item_array[$i]->id ?>"><?php echo $tr_Edit; ?></a> | <a href="?page=delete_order&orderid=<?php echo $item_array[$i]->id ?>" class="delete" onclick="return confirm('<?php echo $tr_sure_want_delete; ?> <?php echo $item_array[$i]->first_name." ".$item_array[$i]->last_name ?>?')"><?php echo $tr_Delete; ?></a></td>
 				</tr>
+        -->
 				<?php
 			}
 		}

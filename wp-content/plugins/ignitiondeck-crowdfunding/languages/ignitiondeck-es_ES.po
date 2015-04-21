@@ -4,13 +4,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-26 15:09-0500\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Nathan Hangen <nhangen@gmail.com>\n"
+"Last-Translator: Diego Jimenez <diegomestizo@riseup.net>\n"
 "Language-Team: \n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -410,9 +410,8 @@ msgid ""
 msgstr ""
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/ignitiondeck-update.php:92
-#, fuzzy
 msgid "An unknown error occurred"
-msgstr "Ha ocurrido un error. Por favor intÃ©ntelo nuevamente"
+msgstr "Ocurriu un erro. Por favor inténteo de novo máis tarde."
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/ignitiondeck.php:1700
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/ignitiondeck.php:1764
@@ -470,7 +469,7 @@ msgstr "Meta de financiamiento"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:15
 msgid "Days Remaining"
-msgstr "DÃ­as restantes"
+msgstr "días restantes"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:16
 msgid "No funding goal set"
@@ -647,9 +646,8 @@ msgid "Buyers"
 msgstr "Compradores"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:59
-#, fuzzy
 msgid "Redirecting to Paypal..."
-msgstr "Reembolso de Paypal"
+msgstr "Reembolso de PayPal"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:60
 #, fuzzy
@@ -658,7 +656,7 @@ msgstr "fallo.en.conexiÃ³n.con.Twitter"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:61
 msgid "Error occured let's try again"
-msgstr "Ha ocurrido un error. Por favor intÃ©ntelo nuevamente"
+msgstr "Ocurriu un erro. Por favor inténteo de novo máis tarde."
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:62
 #, fuzzy
@@ -691,7 +689,7 @@ msgstr "Nombre"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:68
 msgid "Email"
-msgstr "Correo electrÃ³nico"
+msgstr "Correo electrónico"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:69
 msgid "Subject"
@@ -739,12 +737,11 @@ msgstr "Crowdfunding by IgnitionDeck"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:79
 msgid "Learn More"
-msgstr "MÃ¡s informaciÃ³n"
+msgstr "Máis información"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:80
-#, fuzzy
 msgid "Support Now"
-msgstr "Apoye Este Proyecto"
+msgstr "Apoie este proxecto"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:81
 msgid "Our Earliest Buyers"
@@ -764,48 +761,47 @@ msgstr "Powered By IgnitionDeck"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:85
 msgid "Payment Information"
-msgstr "InformaciÃ³n sobre pagos"
+msgstr "Información do pagamento"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:86
 msgid "First Name"
-msgstr "Nombre"
+msgstr "Nome"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:87
 msgid "Last Name"
-msgstr "Apellido"
+msgstr "Apelidos"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:88
 msgid "Address"
-msgstr "DirecciÃ³n"
+msgstr "Dirección"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:89
 msgid "Country"
-msgstr "PaÃ­s"
+msgstr "País"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:90
 msgid "State"
-msgstr "Estado/Provincia"
+msgstr "Provincia"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:91
 msgid "City"
-msgstr "Ciudad"
+msgstr "Cidade"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:92
 msgid "Zip"
-msgstr "CÃ³digo postal"
+msgstr "DNI / Pasaporte"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:93
-#, fuzzy
 msgid "Pay with Paypal"
-msgstr "Clave de pago"
+msgstr "Pagar con PayPal"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:94
 msgid "Funding"
-msgstr "Financiamiento"
+msgstr "Financiamento"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:95
 msgid "Total Sale"
-msgstr "Total de ventas"
+msgstr "Total"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:97
 msgid "LinkedIn"
@@ -825,11 +821,11 @@ msgstr "Si"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:101
 msgid "No"
-msgstr "No"
+msgstr "Non"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:103
 msgid "Please share your experience with your friends!"
-msgstr "Por favor, comparta su experiencia con sus amigos!"
+msgstr "Por favor, comparte a túa experiencia"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:104
 msgid "API key"
@@ -837,11 +833,11 @@ msgstr "Clave API"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:105
 msgid "Subscription Email"
-msgstr "Correo electrÃ³nico para la suscripciÃ³"
+msgstr "Correo electrónico para a suscripción"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:106
 msgid "Aweber Settings"
-msgstr "ConfiguraciÃ³n de Aweber"
+msgstr "Configuración de Aweber"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:107
 msgid "Make Active"
@@ -853,12 +849,12 @@ msgstr "Secreto del usuario"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:109
 msgid "List Email Id"
-msgstr "Identificador de lista de correo electrÃ³nico"
+msgstr "Identificador de lista de correo electrónico"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:110
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:118
 msgid "Mailchimp Settings"
-msgstr "ConfiguraciÃ³n de Mailchimp"
+msgstr "Configuración de Mailchimp"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:111
 msgid "List id"
@@ -866,24 +862,23 @@ msgstr "Identificador de Lista"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:112
 msgid "Embed Widget Code"
-msgstr "Embeber cÃ³digo de Widget"
+msgstr "Embeber código de Widget"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:113
-#, fuzzy
 msgid "Select Project to Create Embed Code for"
-msgstr "Seleccione el proyeto para crear el cÃ³digo para embeber"
+msgstr "Seleccione el proyeto para crear el código para embeber"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:114
 msgid "Embed Code"
-msgstr "CÃ³digo para embeber"
+msgstr "Código para embeber"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:115
 msgid "Application Id"
-msgstr "Identificador de la aplicaciÃ³n"
+msgstr "Identificador de la aplicación"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:116
 msgid "Application secret key"
-msgstr "Clave secreta de la aplicaciÃ³n"
+msgstr "Clave secreta de la aplicación"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:117
 msgid "Text to share"
@@ -891,11 +886,11 @@ msgstr "Texto para compartir"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:119
 msgid "Email Address"
-msgstr "DirecciÃ³n de correo electrÃ³nico"
+msgstr "Dirección de correo electrónico"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:120
 msgid "Zip Code"
-msgstr "CÃ³digo postal"
+msgstr "Código postal"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:121
 msgid "Status"
@@ -903,16 +898,15 @@ msgstr "Estado"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:122
 msgid "Pending"
-msgstr "Pendiente"
+msgstr "Pendente"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:123
 msgid "Complete"
-msgstr "Completo"
+msgstr "Completado"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:124
-#, fuzzy
 msgid "Project Name"
-msgstr "Ingrese el nombre del proyecto aquÃ­"
+msgstr "Ingrese el nombre del proyecto aquí"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:125
 msgid "Project Level"
@@ -937,9 +931,8 @@ msgid "View"
 msgstr "Ver"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:133
-#, fuzzy
 msgid "Are you sure you want to delete this order by"
-msgstr "EstÃ¡ seguro que desea eliminar esta solicitud por"
+msgstr "Está seguro que desea eliminar esta solicitud por"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:134
 msgid "Delete"
@@ -947,7 +940,7 @@ msgstr "Eliminar"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:135
 msgid "Last Email"
-msgstr "Ãltimo correo electrÃ³nico"
+msgstr "Último correo electrónico"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:136
 msgid "Paypal Refund"
@@ -959,11 +952,11 @@ msgstr "Clave de pago"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:138
 msgid "Transaction ID"
-msgstr "Identificador de transacciÃ³n"
+msgstr "Identificador de transacción"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:139
 msgid "Currency Code"
-msgstr "CÃ³digo de moneda"
+msgstr "Código de moneda"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:140
 msgid "Refund"
@@ -975,7 +968,7 @@ msgstr "Ficha de identidad de PayPal"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:144
 msgid "PayPal Email"
-msgstr "Correo electrÃ³nico de PayPal"
+msgstr "Correo electrónico de PayPal"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:145
 msgid "PayPal Override"
@@ -996,7 +989,7 @@ msgstr "Cambiar"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:149
 msgid "Close"
-msgstr "Cerrar"
+msgstr "Pechar"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:150
 #, fuzzy
@@ -1046,7 +1039,7 @@ msgstr "Activado"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:164
 msgid "Mandatory"
-msgstr "Obligatorio"
+msgstr "Obrigatorio"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:165
 msgid "First name"
@@ -1498,9 +1491,8 @@ msgid "Generate Preapproval Key"
 msgstr "Generate Preapproval Key"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:256
-#, fuzzy
 msgid "Paypal_Email"
-msgstr "Correo electrÃ³nico de PayPal"
+msgstr "Correo electrónico de PayPal"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:257
 #, fuzzy
@@ -1543,9 +1535,8 @@ msgid "Pledged of"
 msgstr "Pledged of"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:266
-#, fuzzy
 msgid "Days left"
-msgstr "DÃ­as restantes"
+msgstr "Días restantes"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:267
 msgid "Ended on"
@@ -1553,7 +1544,7 @@ msgstr ""
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:268
 msgid "Only"
-msgstr "Only"
+msgstr "Só"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:269
 msgid "Reload Captcha"
@@ -1591,7 +1582,7 @@ msgstr ""
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:279
 msgid "Total Contribution"
-msgstr "Total Contribution"
+msgstr "Achega"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:280
 msgid "Delete Last Level"
@@ -1618,22 +1609,20 @@ msgid "Additional Project Information"
 msgstr "InformaciÃ³n sobre pagos"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:287
-#, fuzzy
 msgid "Awesome! You are about to support"
-msgstr "Awesome! You are about to become a supporter of"
+msgstr " "
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:289
 msgid "Required"
-msgstr "Required"
+msgstr "Obrigatorio"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:290
 msgid "Publishable Key"
 msgstr "Publishable Key"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:291
-#, fuzzy
 msgid "Payment Method"
-msgstr "Configuraciones de pago"
+msgstr "Método de pago"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/languages/text_variables.php:292
 #, fuzzy
@@ -1953,30 +1942,27 @@ msgstr ""
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/_embedWidget.php:14
 msgid "RAISED"
-msgstr ""
+msgstr "ACADADOS"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/_lbLevelSelect.php:14
 msgid "Step 1:"
-msgstr ""
+msgstr "Paso 1:"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/_lbLevelSelect.php:14
-msgid "Specifiy your contribution amount for"
-msgstr ""
+msgid "Specify your contribution amount for"
+msgstr "Elixe a túa achega."
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/_lbLevelSelect.php:19
-#, fuzzy
 msgid "Contribution Level"
-msgstr "Total Contribution"
+msgstr "Achega"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/_lbLevelSelect.php:33
-#, fuzzy
 msgid "Total"
-msgstr "Total de ventas"
+msgstr "Total"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/_lbLevelSelect.php:49
-#, fuzzy
 msgid "Next Step"
-msgstr "siguiente"
+msgstr "Seguinte paso"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/admin/_orderDetails.php:349
 #, fuzzy
@@ -2026,7 +2012,7 @@ msgstr ""
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/admin/_productSettings.php:27
 msgid "Euro"
-msgstr ""
+msgstr "Euro"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/admin/_productSettings.php:28
 msgid "Hong Kong Dollar<"
@@ -2104,17 +2090,19 @@ msgid "Brazilian Real"
 msgstr ""
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/admin/_productSettings.php:50
-#, fuzzy
 msgid "Check All"
-msgstr "Por favor, complete todos los campos."
+msgstr "Por favor, complete todos os campos."
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/admin/_settingsIgnDeck.php:17
 msgid "Validate"
-msgstr ""
+msgstr "Valid"
 
 #: ../../idtrunk/wp-content/plugins/ignitiondeck-crowdfunding/templates/admin/_settingsIgnDeck.php:23
 msgid " License Valid for"
 msgstr ""
+
+msgid "Continue Checkout"
+msgstr "Pagar con PayPal"
 
 #~ msgid "This will be funded on"
 #~ msgstr "Este proyecto serÃ¡ financiado el"
