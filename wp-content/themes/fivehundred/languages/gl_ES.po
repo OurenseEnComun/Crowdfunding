@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IgnitionDeck 500 Framework\n"
 "POT-Creation-Date: 2015-03-02 11:32-0500\n"
-"PO-Revision-Date: 2015-03-02 11:32-0500\n"
-"Last-Translator: Nathan Hangen <nhangen@gmail.com>\n"
+"PO-Revision-Date: 2015-04-10 23:58+0100\n"
+"Last-Translator: Emilio Padrón <emilioj@udc.es>\n"
 "Language-Team: Virtuous Giant <info@virtuousgiant.com>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: ../../fivehundred-classic/archive-ignition_product.php:7
 #: ../archive-ignition_product.php:5
 msgid "All Projects"
-msgstr ""
+msgstr "Todos os proxectos"
 
 #: ../../fivehundred-classic/footer-home.php:42 ../footer.php:24
 msgid "Theme 500 is a"
@@ -30,13 +30,13 @@ msgstr ""
 
 #: ../../fivehundred-classic/front-page.php:70
 msgid "Other Projects"
-msgstr ""
+msgstr "Outros proxectos"
 
 #: ../../fivehundred-classic/front-page.php:100
 #: ../../fivehundred-classic/page-grid-template.php:67 ../front-page.php:92
 #: ../page-grid-template.php:59
 msgid "Follow"
-msgstr ""
+msgstr "Seguir"
 
 #: ../../fivehundred-classic/front-page.php:101
 #: ../../fivehundred-classic/page-grid-template.php:68 ../front-page.php:93
@@ -54,22 +54,22 @@ msgstr ""
 #: ../../fivehundred-classic/page-grid-template.php:70 ../front-page.php:95
 #: ../page-grid-template.php:62
 msgid "Connect"
-msgstr ""
+msgstr "Conectar"
 
 #: ../../fivehundred-classic/front-page.php:105
 #: ../../fivehundred-classic/page-grid-template.php:72 ../front-page.php:97
 #: ../page-grid-template.php:64
 msgid "More"
-msgstr ""
+msgstr "Máis"
 
 #: ../../fivehundred-classic/front-page.php:105
 msgid "Projects &raquo;"
-msgstr ""
+msgstr "Proxectos &raquo;"
 
 #: ../../fivehundred-classic/functions.php:72
 #: ../templates/admin/_themeSettings.php:32
 msgid "Featured Project on Home Page"
-msgstr ""
+msgstr "Proxecto destacado en Inicio"
 
 #: ../../fivehundred-classic/functions.php:74
 msgid "Choose Post to Feature"
@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../fivehundred-classic/nav-above-grid.php:27 ../nav-above-grid.php:17
 msgid "Amount Raised"
-msgstr ""
+msgstr "Cantidade conseguida"
 
 #: ../../fivehundred-classic/nav-above-grid.php:29
 #: ../../fivehundred-classic/project-featured.php:47
@@ -114,68 +114,68 @@ msgstr ""
 #: ../project-featured.php:30 ../project-hDeck-home.php:40
 #: ../project-hDeck.php:38 ../project-summary.php:21
 msgid "Days Left"
-msgstr ""
+msgstr "días restantes"
 
 #: ../../fivehundred-classic/nav-above-grid.php:31 ../nav-above-grid.php:19
 msgid "Goal Amount"
-msgstr ""
+msgstr "Meta"
 
 #: ../../fivehundred-classic/nav-above-grid.php:48 ../nav-above-grid.php:26
 msgid "All Categories"
-msgstr ""
+msgstr "Todas as categorías"
 
 #: ../../fivehundred-classic/page-grid-template.php:57 ../front-page.php:66
 #: ../page-grid-template.php:51
 msgid "Featured Projects"
-msgstr ""
+msgstr "Proxectos destacados"
 
 #: ../../fivehundred-classic/page-grid-template.php:72 ../front-page.php:97
 #: ../page-grid-template.php:64
 msgid "Projects"
-msgstr ""
+msgstr "Proxectos"
 
 #: ../../fivehundred-classic/page.php:19 ../page-fullwidth.php:24
 #: ../page.php:17
 msgid "Pages:"
-msgstr ""
+msgstr "Páxinas"
 
 #: ../../fivehundred-classic/project-featured.php:21
 #: ../../fivehundred-classic/project-hDeck-home.php:33
 #: ../../fivehundred-classic/project-hDeck.php:29 ../project-featured.php:21
 #: ../project-hDeck-home.php:35 ../project-hDeck.php:33
 msgid "Goal"
-msgstr ""
+msgstr "Meta"
 
 #: ../../fivehundred-classic/project-featured.php:28
 #: ../../fivehundred-classic/project-hDeck-home.php:41
 #: ../../fivehundred-classic/project-hDeck.php:38 ../project-featured.php:24
 #: ../project-hDeck-home.php:55 ../project-hDeck.php:53
 msgid "Raised"
-msgstr ""
+msgstr "Acadado"
 
 #: ../../fivehundred-classic/project-featured.php:51
 #: ../../fivehundred-classic/project-hDeck-home.php:60
 #: ../../fivehundred-classic/project-hDeck.php:57 ../project-featured.php:27
 #: ../project-hDeck-home.php:61 ../project-hDeck.php:59
 msgid "Supporters"
-msgstr ""
+msgstr "Mecenas"
 
 #: ../../fivehundred-classic/project-featured.php:55
 #: ../../fivehundred-classic/project-summary.php:24 ../project-featured.php:43
 #: ../project-summary.php:24
 msgid "Learn More"
-msgstr ""
+msgstr "Coñece máis"
 
 #: ../../fivehundred-classic/project-hDeck-home.php:37
 #: ../../fivehundred-classic/project-hDeck.php:33
 msgid "BY"
-msgstr ""
+msgstr "POR"
 
 #: ../../fivehundred-classic/project-hDeck-home.php:66
 #: ../../fivehundred-classic/project-hDeck.php:63 ../project-hDeck-home.php:67
 #: ../project-hDeck.php:65
 msgid "Project Closed"
-msgstr ""
+msgstr "Proxecto finalizado"
 
 #: ../../fivehundred-classic/project-hDeck-home.php:72
 #: ../../fivehundred-classic/project-hDeck-home.php:75
@@ -187,15 +187,15 @@ msgstr ""
 #: ../project-hDeck.php:69 ../project-hDeck.php:72
 #: ../project-sidebar-home.php:18 ../project-sidebar.php:15
 msgid "Support Now"
-msgstr ""
+msgstr "Apoiar"
 
 #: ../../fivehundred-classic/project-sidebar-home.php:11
 msgid "Support This Project"
-msgstr ""
+msgstr "Apoia este proxecto"
 
 #: ../../fivehundred-classic/project-summary.php:14 ../project-summary.php:14
 msgid "RAISED"
-msgstr ""
+msgstr "ACADADOS"
 
 #: ../../fivehundred-classic/project-summary.php:21
 msgid "Days Closed"
@@ -203,11 +203,11 @@ msgstr ""
 
 #: ../archive.php:7
 msgid "Archives"
-msgstr ""
+msgstr "Archivos"
 
 #: ../archive.php:18 ../category.php:18
 msgid "&laquo; Older Entries"
-msgstr ""
+msgstr "&laquo; Entradas antigas"
 
 #: ../archive.php:19 ../category.php:19
 msgid "Newer Entries &raquo;"
@@ -232,7 +232,7 @@ msgstr ""
 
 #: ../classes/class-content-alert-widget.php:70
 msgid "Image"
-msgstr ""
+msgstr "Imaxe"
 
 #: ../classes/class-content-alert-widget.php:72
 msgid "Text Color (Hex Color including # - ie: #ffffff) "
@@ -429,15 +429,15 @@ msgstr ""
 
 #: ../classes/class-project-grid-widget.php:152
 msgid "Percent Raised"
-msgstr ""
+msgstr "Porcentaxe acadada"
 
 #: ../classes/class-project-grid-widget.php:153
 msgid "Funds Raised"
-msgstr ""
+msgstr "Fondos conseguidos"
 
 #: ../classes/class-project-grid-widget.php:155
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: ../classes/class-project-grid-widget.php:158
 msgid ""
@@ -494,15 +494,15 @@ msgstr ""
 
 #: ../comments.php:40
 msgid "Comments are closed."
-msgstr ""
+msgstr "Os comentarios están pechados."
 
 #: ../entry-footer.php:4
 msgid "Read More..."
-msgstr ""
+msgstr "Ler máis"
 
 #: ../entry-meta.php:3
 msgid "By"
-msgstr ""
+msgstr "Por"
 
 #: ../entry-meta.php:4
 #, php-format
@@ -796,7 +796,7 @@ msgstr ""
 
 #: ../project-hDeck-home.php:83 ../project-hDeck.php:79
 msgid "Project Ends"
-msgstr ""
+msgstr "Peche de achegas"
 
 #: ../project-sidebar-home.php:11
 msgid "Support Levels"
@@ -829,27 +829,27 @@ msgstr ""
 
 #: ../templates/_projectGrid.php:36
 msgid "Pledged of"
-msgstr ""
+msgstr "Recadados dos"
 
 #: ../templates/_projectGrid.php:36
 msgid "goal"
-msgstr ""
+msgstr "meta"
 
 #: ../templates/_projectGrid.php:40
 msgid "Pledgers"
-msgstr ""
+msgstr "Mecenas"
 
 #: ../templates/_projectGrid.php:45
 msgid "Days to go"
-msgstr ""
+msgstr "días para finalizar"
 
 #: ../templates/_projectGrid.php:53
 msgid "Funded on"
-msgstr ""
+msgstr "Creado"
 
 #: ../templates/_projectGrid.php:53
 msgid "Ended on"
-msgstr ""
+msgstr "Remata"
 
 #: ../templates/_projectGrid.php:97
 msgid "level"
@@ -917,3 +917,7 @@ msgstr ""
 #: ../templates/admin/_themeSettings.php:94
 msgid "Save Settings"
 msgstr ""
+
+#: ../templates/admin/_themeSettings.php:94
+msgid "MAY"
+msgstr "MAI"
