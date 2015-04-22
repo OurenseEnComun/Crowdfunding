@@ -194,7 +194,7 @@ footer #copyright {
 /* @group Basic Style */
 
 body {
-	color: #616161;
+	color: #662738;
 	background: rgb(250,250,250);	
 	font-family: Open Sans, Verdana, Arial, Geneva, sans-serif;
 	font-size: 14px;
@@ -919,12 +919,13 @@ header#header {
 	vertical-align: middle;
 }
 #site-description h2 {
+	font-family: Verdana,Helvetica,Arial;
 	font-size: 12px;
 	line-height: 14px;
 	color: #777;
 	display: inline-block;
 	width: auto;
-	max-width: 40%;
+	max-width: 55%;
 	height: auto;
 	max-height: 28px;
 	vertical-align: middle;
@@ -1282,7 +1283,7 @@ h2.entry-title.featuredimage .entry-meta {
 	width: 65%;
 }
 .ign-supportnow a {	
-	color: #9cdff6;
+	color: #C8AAB3;
 	background: #525152;
 	font-weight: 400;
 	text-decoration: none;
@@ -1375,7 +1376,7 @@ h2.entry-title.featuredimage .entry-meta {
 	float: left;
 }
 #ign-product-levels .ign-level-title .level-price {
-	color: #0dbbf2;
+	color: #662738;
 	float: right;
 }
 #ign-product-levels .ign-level-desc {
@@ -1386,7 +1387,7 @@ h2.entry-title.featuredimage .entry-meta {
 	border: 2px solid #DDD;
 	font-size: 13px;
 	line-height: 150%;
-	background-image: url("http://achegas.mareatlantica.org/wp-content/uploads/2015/04/pinga.png");
+	background-image: url("images/semente1.png");
 	background-repeat: no-repeat;
 	background-position: right;
 }
@@ -3167,4 +3168,21 @@ h3#ign-levels-headline {
     width: 100% !important;}
     #button_pay_purchase_by_card{margin-top: 10px;}
         .ignitiondeck form .main-btn, .ignitiondeck form input[type="submit"] { padding: 26px 0 }
+}
+
+.ignitiondeck.idc_lightbox .form-row.submit input[type=submit], #fivehundred .ignitiondeck.idc_lightbox .form-row.submit input[type=submit] {
+        font-weight: bold;
+        font-size: 24px;
+        padding: 15px;
+        margin: 0 auto;
+        display: block;
+        cursor: pointer;
+        border-radius: 0;
+        border: none;
+        text-align: left;
+        text-indent: 0;
+        position: relative;
+        background: #52202D;
+        box-shadow: none;
+        color: #fff;
 }

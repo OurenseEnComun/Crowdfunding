@@ -923,7 +923,7 @@
     .ignitiondeck form .form-row .idc-dropdown__select, .ignitiondeck form .form-row.pretty_dropdown select {
       padding-right: 15px;
       /* accommodate with the pseudo elements for the dropdown arrow */
-      border: 1px solid #3CA7C5;
+      border: 1px solid #52202D;
       border-radius: 0;
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -945,7 +945,7 @@
       top: 0;
       margin-top: 13px;
       text-align: center;
-      color: #3CA7C5;
+      color: #52202D;
       font-family: "ignitiondeck-font-1" !important;
       font-style: normal !important;
       font-weight: normal !important;
