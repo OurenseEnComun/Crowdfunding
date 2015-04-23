@@ -11,7 +11,7 @@ if (!empty($settings['logo'])) {
 		<?php if ( !is_singular() ) {
 			echo '<h1>';
 		} ?>
-			<?php echo (!empty($logo) ? '<img id="logo" src="'.$logo.'"/>' : bloginfo( 'name' )); ?>
+			Sementando para colleitar
 			<?php if ( !is_singular() ) {
 				echo '</h1>';
 			} ?>

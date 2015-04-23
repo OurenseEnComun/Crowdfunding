@@ -1,13 +1,12 @@
 <nav id="menu-header-mobile" class="menu">
-	<?php 
-	// Using wp_nav_menu() to display menu
-	wp_nav_menu( array( 
-		'menu' => 'main-menu', // Select the menu to show by Name
-		'class' => '',
-		'container' => false, // Remove the navigation container div
-		'theme_location' => 'main-menu' 
-		)
-	);
-	?>
-	<div class="clear"></div>
+
+    <div class="menu">
+        <ul class="defaultMenu">
+            <li class="page_item page-item-2">
+                <a href="/aviso-legal/">Aviso Legal</a>
+            </li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+
 </nav>
