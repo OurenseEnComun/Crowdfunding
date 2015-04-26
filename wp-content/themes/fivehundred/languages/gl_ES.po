@@ -118,7 +118,7 @@ msgstr "días restantes"
 
 #: ../../fivehundred-classic/nav-above-grid.php:31 ../nav-above-grid.php:19
 msgid "Goal Amount"
-msgstr "Meta"
+msgstr "Obxectivo"
 
 #: ../../fivehundred-classic/nav-above-grid.php:48 ../nav-above-grid.php:26
 msgid "All Categories"
@@ -144,7 +144,7 @@ msgstr "Páxinas"
 #: ../../fivehundred-classic/project-hDeck.php:29 ../project-featured.php:21
 #: ../project-hDeck-home.php:35 ../project-hDeck.php:33
 msgid "Goal"
-msgstr "Meta"
+msgstr "Obxectivo"
 
 #: ../../fivehundred-classic/project-featured.php:28
 #: ../../fivehundred-classic/project-hDeck-home.php:41

@@ -11,7 +11,7 @@ if (!empty($settings['logo'])) {
 		<?php if ( !is_singular() ) {
 			echo '<h1>';
 		} ?>
-			Sementando para colleitar
+			Sementando para recoller
 			<?php if ( !is_singular() ) {
 				echo '</h1>';
 			} ?>
