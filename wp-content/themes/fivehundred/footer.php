@@ -20,10 +20,9 @@
 			?>
 		</nav>
 	</div>
-	<?php /*<div id="copyright">
-		<span class="themelink"><?php _e('Theme 500 is a', 'fivehundred'); ?> <a target="_blank" href="http://ignitiondeck.com" title="crowdfunding theme for wordpress" alt="Wordpress crowdfunding theme">
-		<?php _e('Crowdfunding Theme for WordPress', 'fivehundred'); ?></a></span>
-	</div> */ ?>
+	<div id="copyright">
+		<span class="themelink">Esta ferramenta para recadar achegas está baseada nos compoñentes de <a href="https://github.com/wp-plugins/ignitiondeck">IgnitionDeck para Wordpress</a> e foi posible grazas ao traballo de adaptación feito pola Marea Atlántica, a quen agracedemos todo o seu traballo e a axuda prestada. Podes obter, baixo <b>licenza libre</b> a versión empregada en Ourense en Común no noso github: <a href="https://github.com/OurenseEnComun/Crowdfunding">https://github.com/OurenseEnComun/Crowdfunding</a></span>
+	</div>
 	<div class="clear"></div>
 </footer>
 <?php wp_footer(); ?>
