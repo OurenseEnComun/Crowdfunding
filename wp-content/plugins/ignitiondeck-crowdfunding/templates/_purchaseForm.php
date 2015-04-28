@@ -181,6 +181,11 @@
 						<input type="hidden" name="quantity" />
 						<input type="hidden" name="project_type" id="project_type" value="<?php echo (isset($purchase_form->project_type) ? $purchase_form->project_type : 'level-based'); ?>"/>
 						<input type="hidden" name="level" value="<?php echo (isset($level) && $level >= 1 ? $level : ''); ?>"/>
+					<?php //Hardcoded message O:-) (in a hurry...)
+					      if ($project_id == '2') {
+						echo '<li>* O pagamento implica a aceptación das condicións recollidas no <a href="http://ourenseencomun.info/wp-content/uploads/2015/04/Modelo-de-empr--stito-civil.pdf" target="_blank">Contrato de Empréstito de OUeC</a></li>';
+						}
+					?>
 				<li class="input">
 					<div class="ign-checkout-price idinput">
 						<label class="idfield_label" for="price"><?php echo $tr_Total_Contribution; ?> </label>
