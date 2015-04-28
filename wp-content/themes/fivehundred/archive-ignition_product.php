@@ -2,11 +2,12 @@
 <?php get_header(); ?>
 <div id="container">
 	<div id="site-description">
-		<h1><?php echo apply_filters('project_archive_title', __('All Projects', 'fivehundred')); ?></h1>
+		<h1><?php echo apply_filters('project_archive_title', __('Support us!', 'fivehundred')); ?></h1>
+<p>A túa axuda é imprescindible para que o noso proxecto en COMÚN para Ourense se poida construír sen lle deber nada a ningunha entidade financeira.</p>
+<p>Podes facer dous tipos de achegas para axudar a Ourense en Común a asumir os gastos de campaña, que en calquera caso serán modestos.</p>
 	</div>
 	<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<div id="content">
-			<?php get_template_part( 'nav', 'above-grid' ); ?>
 			<div id="project-grid">
 				<?php 
 				if (is_archive('ignition_product')) {
@@ -31,7 +32,6 @@
 				?>
 			</div>
 			<div style="clear: both;"></div>
-			<?php get_template_part( 'nav', 'below' ); ?>
 		</div>
 	</div>
 	<div class="clear"></div>

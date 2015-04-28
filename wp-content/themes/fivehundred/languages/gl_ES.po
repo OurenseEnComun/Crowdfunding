@@ -921,3 +921,8 @@ msgstr ""
 #: ../templates/admin/_themeSettings.php:94
 msgid "MAY"
 msgstr "MAI"
+
+#: ../../fivehundred-classic/archive-ignition_product.php:7
+#: ../archive-ignition_product.php:5
+msgid "Support us!"
+msgstr "Apoia a Ourense en Común"
