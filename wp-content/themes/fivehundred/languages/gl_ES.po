@@ -800,7 +800,7 @@ msgstr "Peche de achegas"
 
 #: ../project-sidebar-home.php:11
 msgid "Support Levels"
-msgstr ""
+msgstr "Tipos de achega"
 
 #: ../project-social.php:23
 msgid "Tweet"

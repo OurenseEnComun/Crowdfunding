@@ -5,7 +5,7 @@ $content = the_project_content($id);
 $project_id = get_post_meta($id, 'ign_project_id', true);
 ?>
 <aside id="sidebar">
-<h3 id="ign-levels-headline"><?php echo $content->name; ?> Support Levels</h3>
+<h3 id="ign-levels-headline"><?php echo $content->name; ?>: <?php _e('Support Levels', 'fivehundred'); ?></h3>
 <div id="ign-product-levels" data-projectid="<?php echo $project_id; ?>">
 	<?php do_action('id_before_levels', $project_id); ?>
 	<?php get_template_part('loop', 'levels'); ?>
