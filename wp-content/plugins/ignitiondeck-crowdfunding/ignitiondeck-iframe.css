@@ -54,7 +54,7 @@ body, html {
 .id-embedwidget .main-btn {
     background-clip: padding-box;
     background-color: transparent;
-    background-image: -moz-linear-gradient(center top , #b0d839, #88c238);
+    background: #662739;
     border-radius: 5px;
     color: white !important;
     display: inline-block;
@@ -72,7 +72,7 @@ body, html {
     text-decoration: none;
 }
 .id-embedwidget .id-product-infobox .main-btn:hover {
-    background-image: -moz-linear-gradient(center top , #ccf52b, #88c238);
+    background: none repeat scroll 0 0 #bb8796;
     box-shadow: none;
     text-decoration: none;
 }
@@ -83,7 +83,7 @@ body, html {
     text-decoration: none;
 }
 .id-embedwidget .product-wrapper h2.id-product-title {
-    color: #00aeef;
+    color: #662739;
     font: bold 18px/20px helvetica,arial,freesans,clean,sans-serif;
     margin: 5px 0 2px;
     text-align: center;
@@ -91,7 +91,7 @@ body, html {
 }
 .id-embedwidget .id-product-description {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: normal;
     height: 80px;
     line-height: 12px;
@@ -102,7 +102,7 @@ body, html {
     text-transform: none;
 }
 .id-embedwidget .progress-wrapper {
-    background: none repeat scroll 0 0 #00aeef;
+    background: none repeat scroll 0 0 #bb8796;
     border: 0 none;
     border-radius: 8px;
     height: 18px !important;
@@ -111,7 +111,7 @@ body, html {
     z-index: 5;
 }
 .id-embedwidget .progress-bar {
-    background: none repeat scroll 0 0 #a1d92c;
+    background: none repeat scroll 0 0 #662739;
     border-radius: 8px;
     box-shadow: none;
     float: left;
