@@ -11,7 +11,7 @@ if (!empty($settings['logo'])) {
 		<?php if ( !is_singular() ) {
 			echo '<h1>';
 		} ?>
-			Sementando para recoller
+			<img src="/wp-content/themes/fivehundred/images/cabeceira.png" alt="Sementando para recoller" height="60">
 			<?php if ( !is_singular() ) {
 				echo '</h1>';
 			} ?>
