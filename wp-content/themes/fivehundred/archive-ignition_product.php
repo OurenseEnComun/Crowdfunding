@@ -34,6 +34,9 @@
 			<div style="clear: both;"></div>
 		</div>
 	</div>
-	<div class="clear"></div>
+	<div class="clear">
+<b>Se o prefires, tamén podes facer a túa doazón directamente na conta con IBAN xxxx, mediante transferencia ou directamente na oficina da xxxx.</b>
+	</div>
+&nbsp;
 </div>
 <?php get_footer(); ?>
